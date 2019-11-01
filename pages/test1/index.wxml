@@ -1,0 +1,14 @@
+ <toast id='toastDialog'></toast>
+
+ 
+<view class="center">
+  <button bindtap="showMesSuc">弹出成功提示</button>
+</view>
+
+<view class="center mt-20">
+  <button bindtap="showMesErr">弹出错误提示</button>
+</view>
+
+<view class="center mt-20">
+  <button bindtap="showMesWar">弹出警告提示</button>
+</view>

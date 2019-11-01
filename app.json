@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/test1/index",
+    "pages/test2/index",
+    "pages/test3/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "color": "#666",
+    "selectedColor": "#F5B43E",
+    "list": [
+      {
+        "pagePath": "pages/test1/index",
+        "text": "第一种"
+      },
+      {
+        "pagePath": "pages/test2/index",
+        "text": "第二种"
+      },
+      {
+        "pagePath": "pages/test3/index",
+        "text": "第三种"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

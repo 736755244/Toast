@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "toast": "../../components/toast1/index"
+  }
+}

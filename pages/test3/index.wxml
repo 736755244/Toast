@@ -1,0 +1,6 @@
+<import src="../../components/toast3/index.wxml"/>
+<template is="toast" data="{{ ..._toast_ }}"/>
+
+<view class="center">
+  <button bindtap="showMes">弹出提示</button>
+</view>

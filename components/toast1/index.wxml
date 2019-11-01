@@ -1,0 +1,11 @@
+<!-- 组件页面 -->
+<view class="toast_content_box" wx:if="{{showToast}}">  
+  <view class="toast_content">  
+    <!-- 提示图标 -->
+    <view class="toast_content_img {{iconType}}"></view>
+    <!-- 提示内容 -->
+    <view class="toast_content_text">  
+       {{dataText}}
+    </view>  
+  </view>  
+</view> 
