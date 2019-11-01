@@ -1,1 +1,6 @@
-/* pages/test2/index.wxss */
+
+button{
+  width: 150px;
+  height: 30px;
+  font-size: 13px;
+}

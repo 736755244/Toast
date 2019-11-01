@@ -1,23 +1,34 @@
-// pages/test2/index.js
-Component({
-  /**
-   * 组件的属性列表
-   */
-  properties: {
+const app=getApp()
 
-  },
-
-  /**
-   * 组件的初始数据
-   */
+Page({
   data: {
 
   },
-
-  /**
-   * 组件的方法列表
-   */
-  methods: {
-
+  onLoad(){
+    new app.ToastPannel()
+  },
+  showMesSuc(){
+    this.showTip({
+      icon: "success",
+      content:"这是自定义成功弹窗"
+    })
+  },
+  showMesErr() {
+    this.showTip({
+      icon: "error",
+      content: "这是自定义错误弹窗"
+    })
+  },
+  showMesWar() {
+    this.showTip({
+      icon: "warning",
+      content: "这是自定义警告弹窗"
+    })
+  },
+  showMyMes() {
+    this.showTip({
+      image: '../../images/icon/test.png',
+      content: "这是自定义警告弹窗"
+    })
   }
 })

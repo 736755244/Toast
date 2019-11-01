@@ -1,2 +1,17 @@
-<!--components/toast2/index.wxml-->
-<text>components/toast2/index.wxml</text>
+<!-- 自定义toast组件 -->
+<template name="toast"> 
+  <view class="toast_content_box" wx:if="{{ isHide }}">  
+    <view class="toast_content">
+      <!-- 默认的提示图片 -->
+      <view class="toast_content_img {{iconType}}" wx:if="{{!isUserImg}}"></view>
+      <!-- 用户自定义提示图片 -->
+      <view class="toast_content_myimg" wx:if="{{isUserImg}}">
+        <image src="{{imgPath}}"></image>
+      </view>
+      <!-- 内容 -->
+      <view class="toast_content_text">  
+        {{content}} 
+      </view>  
+    </view>  
+  </view> 
+</template> 

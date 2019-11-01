@@ -1,8 +1,6 @@
-.center{
- margin-top: 50px;
-}
+
 button{
-  width: 100px;
+  width: 150px;
   height: 30px;
   font-size: 13px;
 }

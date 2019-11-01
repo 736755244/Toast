@@ -1,8 +1,7 @@
 {
   "pages": [
     "pages/test1/index",
-    "pages/test2/index",
-    "pages/test3/index"
+    "pages/test2/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -22,10 +21,6 @@
       {
         "pagePath": "pages/test2/index",
         "text": "第二种"
-      },
-      {
-        "pagePath": "pages/test3/index",
-        "text": "第三种"
       }
     ]
   },

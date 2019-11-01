@@ -1,2 +1,18 @@
-<!--pages/test2/index.wxml-->
-<text>pages/test2/index.wxml</text>
+<import src="../../components/toast2/index.wxml"/>
+<template is="toast" data="{{ ..._toast_ }}"/>
+
+<view style="margin-top:30px;">
+  <button bindtap="showMesSuc">弹出默认成功提示</button>
+</view>
+
+<view class="mt-20">
+  <button bindtap="showMesErr">弹出默认错误提示</button>
+</view>
+
+<view class="mt-20">
+  <button bindtap="showMesWar">弹出默认警告提示</button>
+</view>
+
+<view class="mt-20">
+  <button bindtap="showMyMes">弹出自定义图片提示</button>
+</view>

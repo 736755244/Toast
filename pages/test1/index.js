@@ -5,7 +5,6 @@ Page({
   onReady: function () {
     //获得dialog组件 
     //页面定义的id
-    console.log(this.selectComponent("#toastDialog"))
     this.toastDialog = this.selectComponent("#toastDialog");
   },
   showMesSuc(){
@@ -24,6 +23,12 @@ Page({
     this.toastDialog.showDialog({
       content: '自定义警告类型toast组件',
       icon: 'warning'
+    });
+  },
+  showMyMes() {
+    this.toastDialog.showDialog({
+      content: '自定义警告类型toast组件',
+      image: '../../images/icon/test.png'
     });
   }
 })

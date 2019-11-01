@@ -1,4 +1,4 @@
-import { ToastPannel } from './components/toast3/index';//引入弹框
+import { ToastPannel } from './components/toast2/index';//引入弹框
 
 App({
   ToastPannel,
