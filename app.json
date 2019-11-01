@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/test3/index",
     "pages/test1/index",
     "pages/test2/index"
   ],
@@ -16,11 +17,15 @@
     "list": [
       {
         "pagePath": "pages/test1/index",
-        "text": "第一种"
+        "text": "一般组件"
       },
       {
         "pagePath": "pages/test2/index",
-        "text": "第二种"
+        "text": "模块化"
+      },
+      {
+        "pagePath": "pages/test3/index",
+        "text": "动画效果"
       }
     ]
   },
